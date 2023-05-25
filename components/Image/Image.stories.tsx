@@ -36,6 +36,7 @@ export const Default = {
         <Image {...args} />
         <Image {...args} />
         <Image {...args} />
+        <Image {...args} />
       </div>
     );
   }

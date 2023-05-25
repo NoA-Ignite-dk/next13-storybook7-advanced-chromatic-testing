@@ -9,7 +9,8 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token="
   },
   "dependencies": {
     "@next/font": "13.3.0",
@@ -41,5 +42,7 @@
     "sass": "^1.61.0",
     "storybook": "^7.0.2",
     "typescript": "5.0.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "next.js-storybook-example@0.1.0"
 }
