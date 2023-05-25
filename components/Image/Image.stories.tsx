@@ -41,3 +41,15 @@ export const Default = {
     );
   }
 } satisfies Story;
+
+export const Single = {
+  args: Default.args,
+  play: async () => {
+    await waitFor(waitForImagesToLoad, {timeout: 5000});
+  },
+  parameters: {
+    chromatic: {
+      viewports: [375, 640, 960, 1280, 1440]
+    }
+  },
+} satisfies Story;
